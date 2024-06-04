@@ -39,7 +39,7 @@
   gtag('config', 'UA-173929454-1');
 </script>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
   var isNS = (navigator.appName == "PN") ? 1 : 0;
@@ -70,7 +70,7 @@
           <div class="ttm-top-info-con clearfix">
               <ul>
                 <li><div class="icon-box icon-style-border"><i class="fa fa-phone"></i></div>
-                 <div class="title-box"><h5>Call</h5> <p>00971 52 295 3527</p></div>
+                 <div class="title-box"><h5>Call</h5> <p>00971 2 6211 640</p></div>
                 </li>
                <li><div class="icon-box icon-style-border"><i class="fa fa-envelope"></i></div>
                 <div class="title-box"><h5>Email</h5><p> info@logicplus.ae</p></div>
@@ -176,7 +176,7 @@
              <div class="col-lg-6 col-md-12">
               <div class="careerbox">
               <div class="inner-title-left"><h2>Application Form</h2></div>  
-                <form class="careerform" id="" method="post" enctype="multipart/form-data" action="">
+                <form class="careerform" id="submit-form" method="" enctype="" action="">
                     <div class="form-group">                      
                     <div class="input-group-prepend">
                     <div class="input-group-text">
@@ -216,6 +216,28 @@
                       </div>
                     <button type="submit" name="career_submit" class="btn btn-primary summit-btn">Submit &nbsp;<i class="fa fa-thumbs-up"></i></button>
                     </form>
+
+
+                    <script>
+                      $("#submit-form").submit((e)=>{
+                      e.preventDefault()
+                      $.ajax({
+                      url:"https://script.google.com/macros/s/AKfycbz-g45oW-snfhTqrfuv_ayFxSLEYMmP4L4tPUkLXbFYIZdDtRkRfChPHah0fdwCGwZa/exec",
+                      data:$("#submit-form").serialize(),
+                      method:"post",
+                      success:function (response){
+                      alert("Our sales team will contact you shortly. Thank you!")
+                      window.location.reload()
+                      //window.location.href="https://google.com"
+                      },
+                      error:function (err){
+                      alert("Something Error")
+                      
+                      }
+                      })
+                      })
+                      </script>
+
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
@@ -332,7 +354,7 @@
           </li>
             <li><span class="fa-li"><i class="fa fa-envelope"></i></span>info@logicplus.ae</li>
             <li><span class="fa-li"><i class="fa fa-envelope"></i></span>enquiry@logicplus.ae</li>
-            <li><span class="fa-li"><i class="fa fa-phone"></i></span>00971 52 295 3527</li>
+            <li><span class="fa-li"><i class="fa fa-phone"></i></span>00971 2 6211 640</li>
            </ul>
           </div>
         </div>
@@ -345,7 +367,7 @@
        <div class="col-lg-9 col-md-12"><p style="color:#fff;">© 2024 Logic Plus. All Rights Reserved</p></div>
        <div class="col-lg-3 col-md-12">
           <ul class="elementor-icon-list-items" style=" display: flex;">
-           <li class="elementor-icon-list-item"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+           <li class="elementor-icon-list-item"><a href="https://api.whatsapp.com/send?phone=971569305660&amp;text=" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
            </li>
            <li class="elementor-icon-list-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
            </li>
