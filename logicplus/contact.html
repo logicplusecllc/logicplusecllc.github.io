@@ -9,6 +9,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -46,7 +47,7 @@
 <header class="page-hero"><div class="container"><div class="breadcrumb small"><a href="index.html">Home</a> <span class="mx-2">/</span> Contact Us</div><span class="eyebrow mt-4">Let's Talk</span><h1>Contact Us</h1><p class="lead">Contact Logic Plus Electrical Contracting LLC for electrical contracting, engineering, testing & commissioning, operation & maintenance and project enquiries.</p></div></header>
 <section class="section"><div class="container"><div class="row g-5">
 <div class="col-lg-5"><div class="contact-box"><h3>Head Office</h3><p>Office 1801, ADCP Tower C<br>E11, Plot No.87, Electra Street<br>Abu Dhabi, United Arab Emirates</p><hr class="border-secondary"><p><strong>Phone</strong><br><a class="text-white" href="tel:+97126211640">+971 2 621 1640</a></p><p><strong>Mobile</strong><br><a class="text-white" href="tel:+971547401251">+971 54 740 1251</a></p><p><strong>Email</strong><br><a class="text-white" href="mailto:info@logicplus.ae">info@logicplus.ae</a><br><a class="text-white" href="mailto:enquiry@logicplus.ae">enquiry@logicplus.ae</a></p><p><strong>Working Hours</strong><br>Saturday–Thursday: 8:00 AM–7:00 PM<br>Friday: Closed</p></div></div>
-<div class="col-lg-7"><div class="card-lp"><h3>Send Us an Enquiry</h3><p>Tell us about your project or service requirement.</p><form id="contactForm"><div class="row g-3"><div class="col-md-6"><label class="form-label">Name</label><input required class="form-control" type="text"></div><div class="col-md-6"><label class="form-label">Company</label><input class="form-control" type="text"></div><div class="col-md-6"><label class="form-label">Email</label><input required class="form-control" type="email"></div><div class="col-md-6"><label class="form-label">Phone</label><input class="form-control" type="tel"></div><div class="col-12"><label class="form-label">Service Required</label><select class="form-select"><option>Electrical Contracting</option><option>Engineering & Design</option><option>Testing & Commissioning</option><option>Operation & Maintenance</option><option>Other</option></select></div><div class="col-12"><label class="form-label">Message</label><textarea required class="form-control" rows="6"></textarea></div><div class="col-12"><button class="btn btn-lp" type="submit">Submit Enquiry</button></div></div></form><div id="formAlert" class="alert alert-success d-none mt-3"></div></div></div>
+<div class="col-lg-7"><div class="card-lp"><h3>Send Us an Enquiry</h3><p>Tell us about your project or service requirement.</p><form id="submit-form"><div class="row g-3"><div class="col-md-6"><label class="form-label">Name</label><input required class="form-control" type="text"></div><div class="col-md-6"><label class="form-label">Company</label><input class="form-control" type="text"></div><div class="col-md-6"><label class="form-label">Email</label><input required class="form-control" type="email"></div><div class="col-md-6"><label class="form-label">Phone</label><input class="form-control" type="tel"></div><div class="col-12"><label class="form-label">Service Required</label><select class="form-select"><option>Electrical Contracting</option><option>Engineering & Design</option><option>Testing & Commissioning</option><option>Operation & Maintenance</option><option>Other</option></select></div><div class="col-12"><label class="form-label">Message</label><textarea required class="form-control" rows="6"></textarea></div><div class="col-12"><button class="btn btn-lp" type="submit">Submit Enquiry</button></div></div></form><div id="formAlert" class="alert alert-success d-none mt-3"></div></div></div>
 </div></div></section>
 
 <!-- Global Contact / Enquiry Popup -->
@@ -61,7 +62,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form class="globalContactForm">
+        <form id="submit-form" class="globalContactForm">
           <div class="row g-3">
             <div class="col-md-6"><label class="form-label">Name *</label><input name="name" required class="form-control" type="text" placeholder="Your name"></div>
             <div class="col-md-6"><label class="form-label">Company</label><input name="company" class="form-control" type="text" placeholder="Company name"></div>
@@ -72,6 +73,27 @@
             <div class="col-12 d-flex flex-wrap gap-2 align-items-center"><button class="btn btn-lp" type="submit">Send Enquiry</button><a class="btn btn-outline-secondary" href="tel:+97126211640"><i class="bi bi-telephone me-1"></i> Call Us</a></div>
           </div>
         </form>
+
+        <script>
+                    $("#submit-form").submit((e)=>{
+                    e.preventDefault()
+                    $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbz-g45oW-snfhTqrfuv_ayFxSLEYMmP4L4tPUkLXbFYIZdDtRkRfChPHah0fdwCGwZa/exec",
+                    data:$("#submit-form").serialize(),
+                    method:"post",
+                    success:function (response){
+                    alert("Our sales team will contact you shortly. Thank you!")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                    },
+                    error:function (err){
+                    alert("Something Error")
+                    
+                    }
+                    })
+                    })
+                    </script>
+        
         <div class="globalFormAlert alert alert-success d-none mt-3 mb-0"></div>
       </div>
     </div>
