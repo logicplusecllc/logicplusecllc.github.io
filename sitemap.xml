@@ -1,72 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-
-<url>
-  <loc>https://logicplus.ae/</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/index.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/aboutus.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/whylogicplus.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/products.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/gallery.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/industries.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/career.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/certificates.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/hsepolicy.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/contactus.html</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://logicplus.ae/lp/pdf/LogicPlusCompanyProfile.pdf</loc>
-  <lastmod>2025-07-21T12:19:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+  <url>
+       <loc>https://logicplus.ae/</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/index.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/about.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/why-logic-plus.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/services.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/gallery.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/industries.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/career.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/certificates.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/hse.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logicplus/contact.html</loc>
+       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
 </urlset>
