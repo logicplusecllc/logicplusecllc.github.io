@@ -4,57 +4,97 @@
 
   <url>
        <loc>https://logicplus.ae/</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>1.0000</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/index.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/index.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/about.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/about.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/why-logic-plus.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/why-logic-plus.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/services.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/services.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/gallery.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/service-electrical-contracting.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/industries.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/service-engineering-design.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/career.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/service-transformer-installation.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/certificates.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/service-switchgear-installation.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/hse.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/service-testing-commissioning.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://logicplus.ae/logicplus/contact.html</loc>
-       <lastmod>2026-09-08T10:39:01+00:00</lastmod>
+       <loc>https://logicplus.ae/logic-plus/service-earthing-lightning.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logic-plus/service-operation-maintenance.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logic-plus/service-upgrades-modifications.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logic-plus/gallery.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logic-plus/industries.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logic-plus/career.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logic-plus/certificates.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logic-plus/hse.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://logicplus.ae/logic-plus/contact.html</loc>
+       <lastmod>2026-09-09T10:53:14+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
 </urlset>
