@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11152b"/><stop offset=".58" stop-color="#302671"/><stop offset="1" stop-color="#171b34"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd77d"/><stop offset="1" stop-color="#e5a52c"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<g opacity=".12" stroke="#fff" fill="none"><circle cx="1280" cy="190" r="180"/><circle cx="1280" cy="190" r="260"/><path d="M0 790L520 420 880 620 1600 210"/></g>
+<g filter="url(#shadow)">
+ <rect x="470" y="500" width="650" height="280" rx="20" fill="#eef1f6" stroke="#c8cdd8" stroke-width="5"/>
+ <rect x="520" y="555" width="145" height="165" rx="12" fill="#d7dce6" stroke="#aeb5c3" stroke-width="4"/>
+ <rect x="700" y="555" width="145" height="165" rx="12" fill="#d7dce6" stroke="#aeb5c3" stroke-width="4"/>
+ <rect x="880" y="555" width="145" height="165" rx="12" fill="#d7dce6" stroke="#aeb5c3" stroke-width="4"/>
+ <g stroke="#40318d" stroke-width="18" fill="none"><path d="M540 500V365h105v135"/><path d="M720 500V330h105v170"/><path d="M900 500V390h105v110"/></g>
+ <g fill="#f2b238"><circle cx="592" cy="365" r="14"/><circle cx="772" cy="330" r="14"/><circle cx="952" cy="390" r="14"/></g>
+ <g stroke="#fff" stroke-width="10"><path d="M592 365L420 245"/><path d="M772 330L620 180"/><path d="M952 390L820 230"/></g>
+</g>
+<g stroke="url(#gold)" stroke-width="14" fill="none"><path d="M115 820H1490"/><path d="M220 820V570"/><path d="M220 570L320 490L420 570"/><path d="M220 640H420"/></g>
+<g fill="#fff"><text x="110" y="150" font-family="Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="5">POWER &amp; DISTRIBUTION</text><text x="112" y="205" font-family="Arial, sans-serif" font-size="24" opacity=".7">Substations • Switchgear • Electrical Infrastructure</text></g>
+<path d="M1260 320l55-105 35 78 92-170-55 132-34-70z" fill="#f0b23b" opacity=".95"/>
+</svg>

@@ -1,0 +1,17 @@
+
+html[dir="rtl"] body{direction:rtl;text-align:right}
+html[dir="rtl"] .navbar-nav{padding-right:0}
+html[dir="rtl"] .dropdown-menu{text-align:right}
+html[dir="rtl"] .ms-auto{margin-right:auto!important;margin-left:0!important}
+html[dir="rtl"] .ms-lg-2{margin-right:.5rem!important;margin-left:0!important}
+html[dir="rtl"] .me-1{margin-left:.25rem!important;margin-right:0!important}
+html[dir="rtl"] .ms-1{margin-right:.25rem!important;margin-left:0!important}
+html[dir="rtl"] .hero-content{text-align:right}
+html[dir="rtl"] .btn .bi-arrow-right{transform:rotate(180deg)}
+html[dir="rtl"] .topbar .container{direction:rtl}
+html[dir="rtl"] .modal{text-align:right}
+html[dir="rtl"] .form-control,html[dir="rtl"] .form-select{text-align:right}
+html[dir="rtl"] .service-menu .bi{margin-left:.45rem;margin-right:0}
+html[dir="rtl"] .preloader-text{letter-spacing:.08em}
+html[dir="rtl"] .preloader-line{direction:ltr}
+@media(max-width:991.98px){html[dir="rtl"] .navbar-collapse{ text-align:right}}
